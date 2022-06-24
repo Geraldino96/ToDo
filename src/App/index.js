@@ -1,6 +1,6 @@
 import React from 'react';
 import { AppUI } from './AppUI';
-import {TodoProvider} from "./TodoContext";
+import {TodoProvider} from "../TodoContext";
 
 // const defaultTodos = [
 //   { text: 'Quemarlo', completed: true },
