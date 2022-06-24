@@ -85,14 +85,14 @@
   "devDependencies": {
     "gh-pages": "^4.0.0"
   },
-  "homepage": "https://Geraldino96.github.io/ToDo",
+  "homepage": "https://github.com/Geraldino96/ToDo",
   "jest": {
     "roots": [
-      "<rootDir>/src/App"
+      "<rootDir>/src"
     ],
     "collectCoverageFrom": [
-      "src/App/*.{js,jsx,ts,tsx}",
-      "!src/App/*.d.ts"
+      "src/**/*.{js,jsx,ts,tsx}",
+      "!src/**/*.d.ts"
     ],
     "setupFiles": [
       "react-app-polyfill/jsdom"
